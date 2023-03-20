@@ -1,0 +1,59 @@
+/* Regole generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Regole header */
+
+
+/* Inserisco le regole per la mia barra di navigazione nell'header */
+nav{
+    background-color:#5865f2;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+#logo{
+    font-size: 40px;
+    
+}
+
+.menu{
+    /* Tolgo i pallini con questo comando */
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;  
+}
+
+
+ul a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#header-button {
+    background-color: white;
+    color: #5865f2;
+    height: 30px;
+    width: auto;
+    padding: 5px 15px;
+    border: solid 1px #5865f2;
+    border-radius: 15px;
+  }
+
+/* Inserisco il container */
