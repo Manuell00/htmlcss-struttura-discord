@@ -31,7 +31,7 @@ nav {
 }
 
 #logo {
-    font-size: 40px;
+    font-size: 20px;
 
 }
 
@@ -120,8 +120,9 @@ ul a {
 }
 
 /* Inserisco lo stile del main e delle rispettive section */
-.main-container{
-    margin-top: 100px;
+.main-container {
+    margin: 50px 0px;
+    padding: 50px 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -131,8 +132,10 @@ ul a {
     gap: 50px;
 }
 
-.main-container-rev{
-    margin-top: 100px;
+.main-container-rev {
+    background-color: lightgrey;
+    padding: 100px 0px;
+    margin: 50px 0px;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
@@ -142,25 +145,145 @@ ul a {
     gap: 50px;
 }
 
-.main-img{
+.main-img {
     height: 300px;
     width: 40%;
 }
 
-.main-text{
+.main-text {
     text-align: left;
     color: black;
-    width: 20%;
+    width: 22%;
     font-size: 20px;
 }
 
-.main-text h1 {
+.main-text h2 {
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .main-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+}
+
+
+/* Inserisco lo stile per la parte finale del main che è a colonne */
+.main-container-col {
+    background-color: lightgrey;
+    padding: 100px 0px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+.main-img-col {
+    height: 600px;
+    width: 80%;
+}
+
+.main-text-col {
+    text-align: center;
+    color: black;
+    width: 80%;
+    font-size: 20px;
+}
+
+.main-text-col h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.main-img-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-button {
+    margin: 40px 5px;
+    height: 50px;
+    width: auto;
+    padding: 5px 15px;
+    border: solid 1px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+#mac-main {
+    border-color: #5865f2;
+    color: white;
+    background-color: #5865f2;
+}
+
+/* Inserisco lo stile del footer */
+footer {
+    background-color: #23272a;
+}
+
+.footer-container {
+    padding: 30px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+
+.first-bloc-footer {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    width: 15%;
+}
+
+.first-bloc-footer span {
+    padding-right: 10px;
+}
+
+.footer-col {
+    width: 10%;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+
+}
+
+.blue-text-footer {
+    color: #5865f2;
+}
+
+
+/* Inserisco l'ultima parte del footer */
+
+.footer-footer {
+    margin: 0 8%;
+    padding: 10px;
+    border-top: 1px solid #5865f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-button {
+    margin: 10px 25px;
+    height: 30px;
+    width: auto;
+    padding: 5px 15px;
+    border: solid 1px;
+    border-radius: 25px;
+    font-size: 15px;
 }
